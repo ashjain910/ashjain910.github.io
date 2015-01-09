@@ -1,1 +1,363 @@
-Hello World!!
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>FutureNext - The real estate destination</title>
+	<meta name="author" content="Jeetendar Jain" />
+	<meta name="description" content="FutureNext - The real estate destination.Our mission is to assist people in investing their money in the proper way. We want people to invest their hard earned money in the right projects, so that they can get benefit from it in future.FUTURE NEXT is a well-admired and recognized name in the real estate market today. Our company was established in 2008, but at that time we were involved only in man power consultancy. In 2012, we planned to expand our niche and enter into the field of real estate. Although we are a newly established company, but our commitments and dedication in serving our clients have bring us to the edge where we are standing today. 
+We deliver our clients according to their requirements. Our strength is the services that we deliver. Our services are backed by after sales service, meticulous planning and proper communication.  " />
+	<meta name="keywords"  content="real estate, india , chennai, online" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+	#section3{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(handshake.jpg);
+		padding: 30% 0 0 0;
+
+	}
+	#section2{
+		background-image: url(bg11.jpg);
+		background-color: grey;
+		padding: 6% 0 0 0;
+	}
+	#section3{
+		background-image: url(bg11.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section3 h1{
+		color: #000;
+	}
+
+
+ 	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(bg11.jpg);
+		background-size: cover;
+		//background-color: green;
+		padding: 6% 0 0 0;
+	}
+	#slide2{
+		background-image: url(bg11.jpg);
+		background-size: cover;
+		padding: 6% 0 0 0;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+
+@font-face {
+    font-family: aleia_font;
+    src: url(aleia.ttf);
+    font-weight: bold;
+    font-size: 27px;
+}
+
+
+
+
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false, menu: '#menu'
+
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<!-- <a href="https://github.com/alvarotrigo/fullPage.js" id="githubLink"><img style="position: fixed;z-index:99; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a> -->
+
+<!-- <select id="demosMenu">
+  <option selected>Choose Demo</option>
+  <option id="backgrounds">Background images</option>
+  <option id="backgroundVideo">Background video</option>
+  <option id="gradientBackgrounds">Gradient backgrounds</option>
+  <option id="looping">Looping</option>
+  <option id="noAnchor">No anchor links</option>
+  <option id="scrollingSpeed">Scrolling speed</option>
+  <option id="easing">Easing</option>
+  <option id="callbacks">Callbacks</option>
+  <option id="css3">CSS3</option>
+  <option id="continuous">Continuous scrolling</option>
+  <option id="normalScroll">Normal scrolling</option>
+  <option id="scrollBar">Scroll bar enabled</option>
+  <option id="scrolling">Scroll inside sections and slides</option>
+  <option id="navigationV">Vertical navigation dots</option>
+  <option id="navigationH">Horizontal navigation dots</option>
+  <option id="fixedHeaders">Fixed headers</option>
+  <option id="apple">Apple iPhone demo (animations)</option>
+  <option id="oneSection">One Single Section</option>
+  <option id="responsive">Responsive</option>
+  <option id="methods">Methods</option>
+</select> -->
+
+<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alvarotrigo.com/fullPage/" data-text="Great plugin to create fullscreen scrolling websites: http://alvarotrigo.com/fullPage/">Tweet</a> -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#section0">Home</a></li>
+	<li data-menuanchor="secondPage"><a href="#section1">Mission</a></li>
+	<li data-menuanchor="3rdPage"><a href="#section2">About Us</a></li>
+	<li data-menuanchor="4thpage"><a href="#section3">Contact Us</a></li>
+</ul>
+
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">About us</a></li>
+                </ul>
+              </nav>
+
+
+
+<div id="fullpage">
+	<div class="section" id="section0">
+  <img src="logo.jpg" style="width:50%;height:20%; margin-top:10%"></img>
+  </div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1">
+ <h1>Mission</h1><br>
+<p style="margin-left:20%; width:50%; margin-top:5%; font-family:aleia_font; font-size:26px; color:black;">Our mission is to assist people in investing their money in the proper way. We want people to invest their hard earned money in the right projects, so that they can get benefit from it in future.</p>
+            </div>
+	    <div class="slide" id="slide2">
+<h1>Vision</h1><br>
+<p style="margin-left:20%; width:50%; margin-top:5%; font-family:aleia_font; font-size:26px; color:black;">Customers hard earned money should be invested in the best way, so that they can reap high profits
+Providing satisfactory services to our Customers
+Anticipating the requirements of our Customers and establishing long term and strong relationship</p>
+            </div>
+	</div>
+	<div class="section" id="section2"><h3 style="margin-left:20%; width:50%; margin-top:5%; font-family:aleia_font; font-size:26px; ">FUTURE NEXT is a well-admired and recognized name in the real estate market today. Our company was established in 2008, but at that time we were involved only in man power consultancy. In 2012, we planned to expand our niche and enter into the field of real estate. Although we are a newly established company, but our commitments and dedication in serving our clients have bring us to the edge where we are standing today. 
+We deliver our clients according to their requirements. Our strength is the services that we deliver. Our services are backed by after sales service, meticulous planning and proper communication. </h3></div>
+	<div class="section" id="section3"><h1>Contact us</h1><p style="margin-left:20%; width:50%; margin-top:5%; font-family:aleia_font; font-size:26px; color:black;">
+    Name : A. Jeetendar Jain <br>
+    Phone : +91 98844 79669<br>
+    Address : 8, South Sivan Koil street, Kodambakkam Chennai-24<br>
+    Mail : jeetendar84@gmail.com<br>
+  </p></div>
+</div>
+
+</body>
+</html>
